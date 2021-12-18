@@ -1,0 +1,25 @@
+                                         JAVA vs PYTHON
+
+                                      Which one is FASTER?
+
+- In terms of speed Java is FASTER than Python as it is a COMPILED LANGUAGE. It takes less time to execute a code.
+- On the other hand Python is an INTERPRETED LANGUAGE. It determines the type of data at RUN TIME, which makes it SLOWER comparatively.
+
+Interpreted vs Compiled Programming Languages:
+
+-Every program is a set of instructions,Compilers and interpreters take human-readable code and convert it to computer-readable machine code.
+-In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine.
+ Instead, a different program, aka the interpreter, reads and executes the code.
+
+
+Okay… but what does that actually mean?
+
+Imagine you have a Biryani recipe that you want to make, but it's written in Hindi. There are two ways you, a non-Hindi speaker, could follow its directions.
+
+The first is if someone had already translated it into your native language for you. You could read the translated version of the recipe and make Biryani. Think of this translated recipe as the COMPILED version.
+The second way is if you have a friend who knows Hindi. When you're ready to make Biryani, your friend sits next to you and translates the recipe into your native language as you go, line by line. 
+In this case, your friend is the interpreter for the interpreted version of the recipe.
+
+(Programs that are compiled into native machine code tend to be faster than interpreted code. This is because the process of translating code at run time adds to the overhead, and can cause the program to be slower overall).
+
+ 

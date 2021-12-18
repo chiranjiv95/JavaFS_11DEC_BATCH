@@ -1,0 +1,23 @@
+
+
+DATA TYPE            MEM. SIZE        WRAPPER CLASS
+                                      
+                                                            
+byte	                 1 byte	         Byte
+                
+short	                 2 bytes	         Short
+
+int	                 4 bytes	         Integer 
+
+long	                 8 bytes	         Long 
+
+float	                 4 bytes	         Float
+
+double	                 8 bytes	         Double
+
+boolean	                True /false	         Boolean
+
+char	                 2 bytes	        Character
+
+
+

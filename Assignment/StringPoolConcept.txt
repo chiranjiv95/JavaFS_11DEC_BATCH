@@ -1,0 +1,21 @@
+
+--Strings in Java
+
+Strings in Java are Objects that are backed internally by a char array. Since arrays are immutable, Strings are immutable as well. 
+Whenever a change to a String is made, an entirely new String is created.
+
+
+What is String Pool in Java?
+
+JVM divides the allocated memory to a Java program into two parts. one is Stack and another one is heap. Stack is used for execution purpose and heap is used for storage purpose. 
+In that heap memory, JVM allocates some memory specially meant for string literals. This part of the heap memory is called String Constant Pool. (String Pool is a storage area in Java heap).
+Whenever you create a string object using string literal, that object is stored in the string  pool and whenever you create a string object using "new" keyword, such object is stored in the heap memory.
+
+---The JVM performs some steps while initializing string literals to increase performance and decrease memory overhead.
+    To decrease the number of String objects created in the JVM, the String class keeps a pool of strings.
+
+---Each time a string literal is created, the JVM checks the string literal pool first. If the string already exists in the string pool, 
+a reference to the pooled instance returns. If the string does not exist in the pool, a new String object initializes and is placed in the pool.
+
+
+
