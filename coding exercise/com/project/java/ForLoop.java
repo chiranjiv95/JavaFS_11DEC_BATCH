@@ -1,4 +1,4 @@
-package multiplication;
+package com.project.java;
 
 import java.util.Scanner;
 

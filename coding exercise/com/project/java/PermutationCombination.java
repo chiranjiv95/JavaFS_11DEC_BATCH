@@ -1,4 +1,4 @@
-package permutaioncombination;
+package com.project.java;
 
 public class PermutationCombination {
 
